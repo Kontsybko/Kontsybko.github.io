@@ -4,4 +4,4 @@
 Опубликованные сайты
 
 
-[Первый сайт для тренировки](https://kontsybko.github.io/1_site_for_public/"Первый сайт")
+[Первый сайт для тренировки](https://kontsybko.github.io/1_site_for_public/ "Первый сайт")
