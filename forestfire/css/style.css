@@ -1,0 +1,375 @@
+/*Базовые цвета*/
+/*шрифты*/
+@font-face {
+    font-family: 'Druk Cyr';
+    src: url('../fonts/title/DrukCyr-Bold.eot');
+    src: local('Druk Cyr Bold'), local('DrukCyr-Bold'),
+        url('../fonts/title/DrukCyr-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/title/DrukCyr-Bold.woff2') format('woff2'),
+        url('../fonts/title/DrukCyr-Bold.woff') format('woff'),
+        url('../fonts/title/DrukCyr-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+/*Базовые настройки*/
+html {
+  font-size: 10px;
+}
+/*Типографика*/
+section {
+  padding: 10rem 0;
+}
+h1 {
+  font-family: 'Druk Cyr' sans-serif;
+}
+.section-header {
+	width: 100%;
+	height: 850px;
+	display: block;
+}
+/*заголовок*/
+.header-1 {
+  position: absolute;
+  /*width: 1440px;*/
+  width: 100%;
+  height: 850px;
+  z-index: 1;
+}
+.header-2 {
+  position: absolute;
+  width: 60%;
+  height: 812px;
+  left: 35%;
+  z-index: 22;
+  /*ниже ГОВНО с внтуренней тенью*/
+ /* box-shadow: inset 0px 0px 45px rgba(255, 255, 255, 0.5);*/
+  -webkit-transform: rotate(-5.26deg);
+          transform: rotate(-5.26deg);
+/*   border: 1px solid red;  */
+}
+
+.header-3 {
+  position: absolute;
+  width: 90%;
+  height: 513px;
+  margin-top: 173px;
+  left: 75px;
+  z-index: 333;
+}
+
+.block-1 {
+	margin-top: 100px;
+}
+.stemp {
+	display: inline-block;
+	z-index: 1;
+}
+.stemp-2 {
+	z-index: -11;
+	position: absolute;
+	right: 335px;
+	top: 900px;
+}
+.block-1 {
+	display: block;
+	height: 450px;
+}
+h2 {
+	font-family: 'Druk Cyr' sans-serif;
+	z-index: 100;
+	font-size: 36px;
+	font-weight: 900;
+	color: #000;
+	text-align: center;
+	margin-bottom: 32px;
+}
+p {
+	z-index: 10;
+	font-family: sans-serif;
+	position: absolute;
+	font-size: 22px;
+	font-weight: 400;
+	text-align: left;
+	font-style: normal;
+	color: #000;
+	margin-bottom: 60px;
+	
+
+}
+
+.stemp-1 {
+	position: absolute;
+	left: 0px;
+}
+
+
+.stemp-3 {
+	position: absolute;
+	right: -1px;
+	top: 923px;
+
+}
+
+.map {
+	position: absolute;
+	display: block;
+	width: 97%;
+	height: 800px;
+	left: 25px;
+}
+
+.round {
+	border-radius: 50%;
+	width: 269px;
+	height: 269px;
+	margin-top: 570px;
+	background-color: rgba(196, 196, 196, 0.3);
+	  line-height:25px;
+  	text-align: center;
+  	clip-path: circle(50% at center center);
+  	 padding: 1.4644em;
+  	 box-sizing: border-box;
+
+}
+
+.round p {
+	position: absolute;
+	text-align: center;
+	font-size: 22px;
+	margin-top: 13%;
+	line-height: 29.7px;
+	padding: 10px;
+
+}
+.round span {
+	font-size: 20px;
+	font-weight: 400;
+}
+.procent {
+	font-size: 24px;
+	font-weight: 900;
+}
+
+/*новый блок*/
+.section-data {
+	margin-top: 900px;
+	display: block;
+	height: 350px;
+	margin-bottom: 90px;
+}
+
+.section-data p {
+	position: absolute;
+	text-align: center;
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 36px;
+	color: #000;
+
+}
+
+.data-1 {
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 36px;
+	color: #000;
+}
+
+.data-procent {
+	position: relative;
+	text-align: center;
+	font-size: 68px;
+	font-weight: 900;
+	line-height: 72px;
+	display: block;
+	color: #B90B1B;
+}
+.data-bold {
+	position: relative;
+	text-align: center;
+	font-size: 53px;
+	font-weight: 900;
+	line-height: 53px;
+	display: block;
+	color: #000;
+}
+.data-procent-2 {
+	position: relative;
+	text-align: center;
+	font-size: 68px;
+	font-weight: 900;
+	line-height: 72px;
+	display: block;
+	color: #B90B1B;
+	margin-top: -20px;
+}
+.data-text-2 {
+	position: relative;
+	display: flex;
+	padding-top: 10px;
+}
+
+/*страны*/
+.contries {
+
+	height: 230px;
+}
+
+.contries p {
+	position: relative;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
+
+	color: #000;
+}
+
+.contries-header {
+	position: relative;
+	font-size: 22px;
+	line-height: 50px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.contries-procent {
+	position: relative;
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 100%;
+	color: #000;
+}
+
+.cont-second {
+	top: 10px;
+}
+
+.deforestation {
+	height: 850px;
+	margin-top: 370px;
+	
+}
+
+.deforestation-bg {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 850px;
+}
+
+.section-first-reason {
+	width: 100%;
+	display: block;
+	margin-top: 945px;
+	height: 1300px;
+}
+
+.map-2 {
+	margin-top: 350px;
+	display: block;
+}
+
+.round-2 {
+	margin-top: 950px;
+	display: block;
+}
+
+.section-data-2 {
+	width: 100%;
+	height: 400px;
+	margin-top: 100px;
+}
+
+.title-aftermath {
+	position: absolute;
+	margin-top: 100px;
+	text-align: center;
+	font-size: 22px;
+	text-transform: uppercase;
+	line-height: 36px;
+
+}
+
+.aftermath {
+	height: 150px;
+	position: relative;
+	margin-top: 180px;
+	text-align: center;
+}
+
+.aftermath-text {
+	font-size: 14px;
+	font-weight: 500;
+}
+
+@media (max-width: 1140px) {
+	.map {
+		left: 1%;
+		height: 85%;
+	}
+}
+
+@media (max-width: 770px) {
+	.section-header {
+		height: 410px;
+	}
+
+	.header-1 {
+		height: 443px;
+	}
+
+	.header-2 {
+		top: 78px;
+		height: 333px;
+	}
+
+	.header-3 {
+		margin-top: 30px;
+		height: 400px;
+		left: 30px;
+	}
+
+	.stemp {
+		display: none;
+	}
+	.round {
+		margin-left: 22%;
+	}
+	.map {
+		left: 1%;
+		height: 59%;
+	}
+
+	.min-map-1 {
+		margin-top: 220px;
+	}
+
+	.map-2 {
+		margin-top: 570px;
+	}
+
+	.deforestation-bg {
+		height: 400px;
+		top: 340px;
+	}
+
+	.freason {
+		margin-top: -100px;
+	}
+
+	.section-data {
+		margin-left: 15%;
+	}
+
+	.section-data-2 {
+		padding-left: 15%;
+		margin-top: 30px;
+	}
+
+	.title-aftermath {
+		margin-left: 29%;
+	}
+
+}
